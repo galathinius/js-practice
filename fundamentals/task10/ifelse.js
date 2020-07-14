@@ -1,15 +1,15 @@
-// // ex 1
-//     if ("0") {
-//         alert( 'Hello' );
-//     }   //yes
+// ex 1
+    if ("0") {
+        alert( 'Hello' );
+    }   //yes
 
-// // ex 2
-//     let input = prompt('What is the "official" name of JavaScript?', 'idk');
-//     if (input == "ECMAScript") {
-//         alert("Right");
-//     } else {
-//         alert("Didn't know? ECMAScript!");
-//     }
+// ex 2
+    let input = prompt('What is the "official" name of JavaScript?', 'idk');
+    if (input == "ECMAScript") {
+        alert("Right");
+    } else {
+        alert("Didn't know? ECMAScript!");
+    }
 
 // ex 3
     let number = + prompt("give a number", "-8");
