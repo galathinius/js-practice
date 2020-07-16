@@ -10,8 +10,8 @@
 
 // alert( isEmpty(schedule) ); // false
 
-let isEmpty = (object) => {
-    let keyNumber = 0;
-    for (key in object) keyNumber++;
-    return !keyNumber;
-  }
+const isEmpty = (object) => {
+  let keyNumber = 0;
+  for (key in object) keyNumber++;
+  return !keyNumber;
+};
